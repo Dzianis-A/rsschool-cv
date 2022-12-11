@@ -4,6 +4,10 @@ html {
 * {
     color: black;
 }
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
 h1 {
     color: blue;
     margin-bottom: 0.25em;
