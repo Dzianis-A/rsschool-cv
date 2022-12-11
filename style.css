@@ -1,2 +1,22 @@
-$primary-color: #070707
- 
+html {
+    font-family: Roboto, sans-serif;
+}
+* {
+    color: black;
+}
+h1 {
+    color: blue;
+    margin-bottom: 0.25em;
+    justify-content: center;
+}
+h2 {
+    color:black;
+    font-size: 1em;
+}
+a {
+    color: blue;
+}
+.contacts {
+    display: flex;
+
+    }
