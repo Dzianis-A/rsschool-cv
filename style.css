@@ -1,26 +1,70 @@
 html {
-    font-family: Roboto, sans-serif;
+    background-color: #ecdd0b0a;
 }
-* {
-    color: black;
+
+body {
+    width: 805px;
+    height: 1600px;
+    margin: 0 auto;
+    background-color: #68f11944;
+    padding: 0 5px 0px 5px;
+    border: 1px solid #000000;
 }
-nav ul li {
-    display: inline;
-    margin: 5px;
+
+header {
+    color: rgb(43, 27, 185);
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
 }
-h1 {
-    color: blue;
-    margin-bottom: 0.25em;
-    justify-content: center;
+
+nav {
+    background: #f52602;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    max-width: 805px;
 }
-h2 {
-    color:black;
-    font-size: 1em;
+menu, menu li {
+margin: 0;
+padding: 0;
 }
-a {
-    color: blue;
+menu {
+    list-style: none;
+    text-align: center;
+}
+
+menu li {
+    display: inline-block;
+    background: #cef10bea;
+    height: 50px;
+    margin: 0 -2px;
+    border-right: solid 2px black; 
+}
+
+menu li:first-child {
+    border-left: solid 2px black;
+}
+menu a {
+    display: block;
+    padding: 0px 48px;
+    text-decoration: none;
+}
+.heading {
+    color: rgb(3, 1, 17);
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em; 
+    margin-top: 2em;   
+}
+.description {
+    color: rgb(128, 13, 236);
+    text-indent: 8%;   
 }
 .contacts {
-    display: flex;
-
-    }
+    color: rgb(128, 13, 236);
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em; 
+}
